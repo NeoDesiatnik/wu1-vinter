@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    background-color: rgb(176, 0, 25);
+    background: url('../bilder/flyg.png') no-repeat;
+    background-size: 100vw; 
+    float: left;
+    height: 100vw;
+    width: 100vw;
+}

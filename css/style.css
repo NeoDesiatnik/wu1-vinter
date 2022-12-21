@@ -7,19 +7,55 @@ body {
     padding: 0;
     display: grid;
     place-items: center;
-    background-color: rgba(103, 157, 157, 0.587);
-}
+    background-color: rgb(176, 0, 25);
+    background: url('../bilder/backrooms.png') no-repeat;
+    background-size: 100vw; 
+    float: left;
+    height: 100vw;
+    width: 100vw;
+} 
 
 h1 {
     font-size: 8rem;
     color: #fff;
     font-family: sans-serif;
+    align-self: center;
+    padding-bottom: 7rem;
 }
 
+p{
+    position: absolute;
+    padding-top: 20rem;
+    color: #fff;
+    font-family: 'Mountains of Christmas', cursive;
+
+}
 
 canvas {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
+}
+
+h1{
+font-family: 'Mountains of Christmas', cursive;
+}
+
+html, body, #tv {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#tv {
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	-webkit-perspective: 1000;
 }
